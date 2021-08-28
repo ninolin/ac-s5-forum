@@ -14,10 +14,6 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "bdca7ccc551694",
-    "password": "826c206b",
-    "database": "database_production",
-    "host": "us-cdbr-east-04.cleardb.com",
-    "dialect": "mysql"
+    "use_env_variable": "CLEARDB_DATABASE_URL"
   }
 }
